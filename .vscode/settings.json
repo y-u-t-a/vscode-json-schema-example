@@ -1,0 +1,16 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "json/movie/*"
+      ],
+      "url": "./schemas/movie.json" 
+    },
+    {
+      "fileMatch": [
+        "json/movies.json"
+      ],
+      "url": "./schemas/movies.json"
+    },
+  ]
+}

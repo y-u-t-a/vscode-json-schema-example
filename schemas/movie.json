@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "title": "Movie",
+  "description": "映画の情報",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "映画の名前",
+      "type": "string"
+    },
+    "publishedYear": {
+      "description": "映画の公開年",
+      "type": "integer",
+      "minimum": 1900,
+      "default": 2000
+    }
+  },
+  "required": [ "name", "publishedYear" ]
+}

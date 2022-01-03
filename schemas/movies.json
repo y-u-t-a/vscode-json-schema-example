@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "title": "Movies",
+  "description": "映画の情報（配列版）",
+  "type": "array",
+  "items": { "$ref": "./movie.json"}
+}
