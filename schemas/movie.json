@@ -13,6 +13,13 @@
       "type": "integer",
       "minimum": 1900,
       "default": 2000
+    },
+    "relatedMovies": {
+      "type": "array",
+      "items": {
+        "type":"object",
+        "$ref": "#"
+      }
     }
   },
   "required": [ "name", "publishedYear" ]

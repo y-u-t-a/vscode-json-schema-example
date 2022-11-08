@@ -1,4 +1,14 @@
 {
   "name": "サンプル",
-  "publishedYear": 2000
+  "publishedYear": 2000,
+  "relatedMovies": [
+    {
+      "name": "サンプル2",
+      "publishedYear": 2001
+    },
+    {
+      "name": "サンプル3",
+      "publishedYear": 2002
+    }
+  ]
 }
