@@ -15,6 +15,7 @@
       "default": 2000
     },
     "relatedMovies": {
+      "description": "関連する映画",
       "type": "array",
       "items": {
         "type":"object",
