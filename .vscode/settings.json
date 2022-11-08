@@ -4,7 +4,7 @@
       "fileMatch": [
         "json/movie/*"
       ],
-      "url": "./schemas/movie.json" 
+      "url": "./schemas/movie.json"
     },
     {
       "fileMatch": [
